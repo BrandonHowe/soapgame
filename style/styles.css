@@ -2,3 +2,19 @@ html {
     background-image: url("https://dreams.metroeve.com/wp-content/uploads/2016/12/dreams.metroeve_soap-dreams-meaning.jpg");
     font-family: sans-serif;
 }
+
+#buySoapBox {
+    width: 5%;
+    border: solid 2px black;
+    border-radius: 2px;
+    background-color: grey;
+}
+
+#buySoapButton {
+    border: solid 2px black;
+    border-radius: 2px;
+    width: 80%;
+    height: 30%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
