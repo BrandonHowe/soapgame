@@ -4,10 +4,12 @@ html {
 }
 
 #buySoapBox {
-    width: 5%;
-    border: solid 2px black;
-    border-radius: 2px;
-    background-color: grey;
+    width: 8%;
+    height: 5%;
+    border: solid 3px black;
+    border-radius: 3px;
+    padding: 1%; 
+    background-color: light-grey;
 }
 
 #buySoapButton {
