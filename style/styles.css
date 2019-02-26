@@ -8,12 +8,33 @@ html {
     height: 5%;
     border: solid 3px black;
     border-radius: 3px;
-    padding: 1%; 
+    padding: 1%;
     background-color: #DDDDDD;
     font-align: center;
 }
 
 #buySoapButton {
+    border: solid 2px black;
+    border-radius: 2px;
+    width: 80%;
+    height: 30%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding: 2%;
+    font-align: center;
+}
+
+#sellSoapBox {
+    width: 20%;
+    height: 5%;
+    border: solid 3px black;
+    border-radius: 3px;
+    padding: 1%;
+    background-color: #DDDDDD;
+    font-align: center;
+}
+
+#sellSoapButton {
     border: solid 2px black;
     border-radius: 2px;
     width: 80%;
