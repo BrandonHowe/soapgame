@@ -9,8 +9,9 @@ html {
     border: solid 3px black;
     border-radius: 3px;
     padding: 1%;
-    background-color: #DDDDDD;
+    background-color: #999;
     text-align: center;
+    display: inline-block;
 }
 
 #buySoapButton {
@@ -21,6 +22,7 @@ html {
     margin-left: 10%;
     margin-bottom: 5%;
     padding: 2%;
+    background-color: #DDD;
     text-align: center;
 }
 
@@ -30,8 +32,9 @@ html {
     border: solid 3px black;
     border-radius: 3px;
     padding: 1%;
-    background-color: #DDDDDD;
+    background-color: #999;
     text-align: center;
+    display: inline-block;
 }
 
 #sellSoapButton {
@@ -42,5 +45,6 @@ html {
     margin-left: 10%;
     margin-bottom: 5%;
     padding: 2%;
+    background-color: #DDD;
     text-align: center;
 }
