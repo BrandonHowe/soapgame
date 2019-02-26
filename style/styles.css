@@ -8,7 +8,7 @@ html {
     height: 75px;
     border: solid 3px black;
     border-radius: 3px;
-    padding: 1%;
+    padding: 0.75% 1% 1% 1%;
     background-color: #999;
     text-align: center;
     float: left;
@@ -23,7 +23,8 @@ html {
     height: 30%;
     margin-left: 10%;
     margin-bottom: 5%;
-    padding: 2%;
+    margin-top: -5%;
+    padding: 2.5% 2% 2% 2%;
     background-color: #DDD;
     text-align: center;
 }
@@ -33,7 +34,7 @@ html {
     height: 75px;
     border: solid 3px black;
     border-radius: 3px;
-    padding: 1%;
+    padding: 2% 1% 0% 1%;
     background-color: #999;
     text-align: center;
     display: inline-block;
@@ -48,6 +49,7 @@ html {
     height: 30%;
     margin-left: 10%;
     margin-bottom: 5%;
+    margin-top: 5%;
     padding: 2%;
     background-color: #DDD;
     text-align: center;
