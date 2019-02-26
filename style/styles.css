@@ -5,12 +5,14 @@ html {
 
 #buySoapBox {
     width: 10%;
-    height: 5%;
+    height: 75px;
     border: solid 3px black;
     border-radius: 3px;
     padding: 1%;
     background-color: #999;
     text-align: center;
+    float: left;
+    margin: 1%;
     display: inline-block;
 }
 
@@ -28,13 +30,15 @@ html {
 
 #sellSoapBox {
     width: 10%;
-    height: 5%;
+    height: 75px;
     border: solid 3px black;
     border-radius: 3px;
     padding: 1%;
     background-color: #999;
     text-align: center;
     display: inline-block;
+    float: left;
+    margin: 1%;
 }
 
 #sellSoapButton {
@@ -47,4 +51,16 @@ html {
     padding: 2%;
     background-color: #DDD;
     text-align: center;
+}
+
+#lowerSoapCost {
+    display: inline;
+}
+
+#raiseSoapCost {
+    display: inline;
+}
+
+#sellSoapCost {
+    display: inline;
 }
