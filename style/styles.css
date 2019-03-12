@@ -3,17 +3,43 @@ html {
     font-family: sans-serif;
 }
 
+#soapHeader {
+    float: left;
+    display: inline-block;
+}
+
+#statusBox {
+    height: 600px;
+    width: 25%;
+    background-color: #999;
+    border: solid 3px black;
+    border-radius: 3px;
+    float: right;
+    margin: 1%;
+    display: inline-block;
+}
+
+#statusHeader {
+    text-align: center;
+}
+
+#arbitrageDiv {
+    display: block;
+    float: left;
+    width: 22%;
+}
+
 #buySoapBox {
-    width: 10%;
+    width: 45%;
     height: 75px;
     border: solid 3px black;
     border-radius: 3px;
     padding: 0.75% 1% 1% 1%;
     background-color: #999;
     text-align: center;
-    float: left;
+    /* float: left; */
     margin: 1%;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 #buySoapButton {
@@ -30,15 +56,15 @@ html {
 }
 
 #sellSoapBox {
-    width: 10%;
+    width: 45%;
     height: 75px;
     border: solid 3px black;
     border-radius: 3px;
     padding: 2% 1% 0% 1%;
     background-color: #999;
     text-align: center;
-    display: inline-block;
-    float: left;
+    /* display: inline-block; */
+    /* float: left; */
     margin: 1%;
 }
 
