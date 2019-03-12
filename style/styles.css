@@ -7,8 +7,8 @@ html {
     float: left;
     display: inline-block;
 }
-
-#statusBox {
+/* TODO: lots of work */
+#statusBox  {
     height: 600px;
     width: 25%;
     background-color: #999;
