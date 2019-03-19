@@ -5,7 +5,7 @@ html {
 
 #soapHeader {
     float: left;
-    display: inline-block;
+    display: block;
 }
 /* TODO: lots of work */
 #statusBox  {
@@ -23,23 +23,25 @@ html {
     text-align: center;
 }
 
-#arbitrageDiv {
+/* #arbitrageDiv {
     display: block;
     float: left;
     width: 22%;
-}
+    height: 85px;
+} */
 
 #buySoapBox {
-    width: 45%;
+    /* width: 45%; */
+    width: 10%;
     height: 75px;
     border: solid 3px black;
     border-radius: 3px;
     padding: 0.75% 1% 1% 1%;
     background-color: #999;
     text-align: center;
-    /* float: left; */
+    float: left;
     margin: 1%;
-    /* display: inline-block; */
+    display: block;
 }
 
 #buySoapButton {
@@ -56,15 +58,15 @@ html {
 }
 
 #sellSoapBox {
-    width: 45%;
+    width: 10%;
     height: 75px;
     border: solid 3px black;
     border-radius: 3px;
     padding: 2% 1% 0% 1%;
     background-color: #999;
     text-align: center;
-    /* display: inline-block; */
-    /* float: left; */
+    display: block;
+    float: left;
     margin: 1%;
 }
 
