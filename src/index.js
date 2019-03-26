@@ -11,3 +11,5 @@ function buySoap () {
         O("moneyAmount").innerHTML = player.inventory.money;
     }
 }
+
+//test
