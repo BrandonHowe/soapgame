@@ -10,7 +10,3 @@ function buySoap () {
         O("moneyAmount").innerHTML = player.inventory.money;
     }
 }
-
-function sellSoapMenuModalOpen () {
-  sellSoapMenuModal.style.display = "block";
-}
