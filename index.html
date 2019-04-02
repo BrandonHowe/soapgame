@@ -22,9 +22,18 @@
   </div>
   <div id="sellSoapBox">
     <p id="sellSoapPrice">Price: <strong id="sellSoapPriceValue">$1</strong></p>
-    <div id="sellSoapButton">Sell Soap</div>
+    <div id="sellSoapButton" onclick="sellSoapMenuModalOpen()">Sell Soap</div>
+  </div>
+  <div id="sellSoapMenuModal" class="sellSoapMenuModal">
+    <div id="sellSoapMenuModalContent">
+      <span id="sellSoapMenuModalClose">&times;</span>
+      <div id="sellSoapMenuModalContentText">
+        <p>test</p>
+      </div>
+    </div>
   </div>
   <script src="src/index.js"></script>
   <script src="src/stats.js"></script>
+  <scirpt src="src/modals.js"></script>
 </body>
 </html>
