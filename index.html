@@ -22,9 +22,25 @@
   </div>
   <div id="sellSoapBox">
     <p id="sellSoapPrice">Price: <strong id="sellSoapPriceValue">$1</strong></p>
-    <div id="sellSoapButton">Sell Soap</div>
+    <div id="sellSoapButton" onclick="sellSoapMenuModalOpen()">Sell Soap</div>
+  </div>
+  <div id="sellSoapMenuModal" class="sellSoapMenuModal">
+    <div id="sellSoapMenuModalContent">
+      <span id="sellSoapMenuModalClose">&times;</span>
+      <div id="sellSoapMenuModalContentText">
+        <h2>Selling menu</h2>
+        <br><br>
+        <div id="sellSoapMenuModalContentIncreasePrice">Raise Price</div>
+        <div id="sellSoapMenuModalContentCurrentPrice">Current price: <strong>$<span id="sellSoapMenuModalContentCurrentPriceSpan">1</span></strong></div>
+        <div id="sellSoapMenuModalContentDecreasePrice">Lower Price</div>
+        <br><br>
+        <p id="sellSoapMenuModalContentCurrentSellChance">Chance of selling: <strong><span id="sellSoapMenuModalContentCurrentSellChanceSpan">100</span>%</strong></p>
+        <p>This is the selling menu. You can configure your price and soon other values here. The higher your price, the lower the chance of successfully selling. Remember to keep your sell price above your buy price to make sure that you make profit!</p>
+      </div>
+    </div>
   </div>
   <script src="src/index.js"></script>
   <script src="src/stats.js"></script>
+  <script src="src/modals.js"></script>
 </body>
 </html>
