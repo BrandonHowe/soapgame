@@ -5,6 +5,7 @@ var player = {
     },
     "costs": {
         "soap": 1,
+        "sellprice": 1,
         "sellchance": 1,
         "sellchancemodifier": 1
     }
