@@ -90,6 +90,18 @@ html {
     font-weight: bold;
 }
 
+#employeesbox {
+    width: 20%;
+    height: 200px;
+    border: solid 3px black;
+    border-radius: 3px;
+    padding 0.5%;
+    background-color: grey;
+    float: right;
+    display: inline-block;
+    display: none;
+}
+
 /* The Soap Selling Modal (background) */
 #sellSoapMenuModal {
   display: none; /* Hidden by default */
