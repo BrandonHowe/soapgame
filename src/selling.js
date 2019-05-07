@@ -1,4 +1,4 @@
-var currentlySellingSoap = 0;
+var currentlySellingSoap = 0; //if the sell menu is open
 
 sellSoapMenuModalContentIncreasePrice.onclick = function() {
   if (player.costs.sellprice) {
@@ -25,6 +25,32 @@ function sellSoapChance() {
         O("sellSoapMenuModalContentCurrentSellChanceSpan").innerHTML = player.costs.sellchance;
     } else {
         player.costs.sellchance = 1;
+        O("sellSoapMenuModalContentCurrentSellChanceSpan").innerHTML = player.costs.sellchance;
+    }
+}
+
+function sellSoapLoop () {
+  if (Math.random() * 100 < player.costs.sellchance) {
+    sellSoap();
+  }
+  setTimeout(sellSoapLoop(), sellSoapInterval); //sets a timeout for the function to happen again
+}
+
+function sellSoap () {
+    player.inventory.soap--;
+    player.inventory.money += player.costs.sellprice;
+    O('soapAmount').innerHTML = player.inventory.soap;
+    O('moneyAmount').innerHTML = player.inventory.money;
+}
+
+function createMarketerDiv () {
+
+}
+
+function buyMarketers () {
+    if (player.inventory.moneyAmount >= 10) {
+        player.inventory.moneyAmount -= 10;
+        player.employees.marketers++;
     }
 }
 
