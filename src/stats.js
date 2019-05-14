@@ -9,5 +9,8 @@ var player = {
         "sellchance": 1,
         "sellchancemodifier": 1,
         "sellSoapInterval": 1000
+    },
+    "misc": {
+        "currentlySellingSoap": 0
     }
 }

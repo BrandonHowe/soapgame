@@ -14,18 +14,20 @@ function sellSoapMenuModalOpen () {
 // When the user clicks on the button, open the modal
 sellSoapButton.onclick = function() {
   document.getElementById("sellSoapMenuModal").style.display = "block";
+  sellSoapLoop();
+  player.misc.currentlySellingSoap = 1;
 }
 
 // When the user clicks on <span> (x), close the modal
 sellSoapMenuModalClose.onclick = function() {
   sellSoapMenuModal.style.display = "none";
-  currentlySellingSoap = 0;
+  player.misc.currentlySellingSoap = 0;
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == sellSoapMenuModal) {
     sellSoapMenuModal.style.display = "none";
-    currentlySellingSoap = 0;
+    player.misc.currentlySellingSoap = 0;
   }
 }

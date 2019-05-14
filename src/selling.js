@@ -33,7 +33,9 @@ function sellSoapLoop () {
   if (Math.random() * 100 < player.costs.sellchance) {
     sellSoap();
   }
-  setTimeout(sellSoapLoop(), sellSoapInterval); //sets a timeout for the function to happen again
+  if (player.misc.currentlySellingSoap === 1) {
+    setTimeout(sellSoapLoop(), sellSoapInterval); //sets a timeout for the function to happen again
+  }
 }
 
 function sellSoap () {
