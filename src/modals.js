@@ -8,14 +8,14 @@ var sellSoapCloseSpan = document.getElementsByClassName("sellSoapMenuModalClose"
 //
 function sellSoapMenuModalOpen () {
   sellSoapMenuModal.style.display = "block";
-  currentlySellingSoap = 1;
+  player.misc.currentlySellingSoap = 1;
 }
 
 // When the user clicks on the button, open the modal
 sellSoapButton.onclick = function() {
   document.getElementById("sellSoapMenuModal").style.display = "block";
-  sellSoapLoop();
   player.misc.currentlySellingSoap = 1;
+  sellSoapLoop();
 }
 
 // When the user clicks on <span> (x), close the modal

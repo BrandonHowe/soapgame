@@ -30,17 +30,21 @@ function sellSoapChance() {
 }
 
 function sellSoapLoop () {
-  if (Math.random() * 100 < player.costs.sellchance) {
+  console.log(player.misc.currentlySellingSoap)
+  if ((Math.random() * 100 < Number(player.costs.sellchance)) && (player.inventory.soap >= 1)) {
     sellSoap();
+    console.log("2")
   }
+  console.log(player.misc.currentlySellingSoap)
   if (player.misc.currentlySellingSoap === 1) {
-    setTimeout(sellSoapLoop(), sellSoapInterval); //sets a timeout for the function to happen again
+    console.log("3")
+    setTimeout(sellSoapLoop, player.costs.sellSoapInterval); //sets a timeout for the function to happen again
   }
 }
 
 function sellSoap () {
     player.inventory.soap--;
-    player.inventory.money += player.costs.sellprice;
+    player.inventory.money += Number(player.costs.sellprice);
     O('soapAmount').innerHTML = player.inventory.soap;
     O('moneyAmount').innerHTML = player.inventory.money;
 }
